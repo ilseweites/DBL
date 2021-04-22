@@ -1,0 +1,64 @@
+Ilse Weites 1563343
+
+sat
+(model 
+  (define-fun t2n () Int
+    1)
+  (define-fun t3n () Int
+    1)
+  (define-fun t4n () Int
+    1)
+  (define-fun t5n () Int
+    0)
+  (define-fun t6n () Int
+    0)
+  (define-fun t2s () Int
+    3)
+  (define-fun t1p () Int
+    0)
+  (define-fun t4c () Int
+    4)
+  (define-fun t6d () Int
+    0)
+  (define-fun t3d () Int
+    3)
+  (define-fun t5c () Int
+    0)
+  (define-fun t5p () Int
+    6)
+  (define-fun t5d () Int
+    0)
+  (define-fun t3p () Int
+    0)
+  (define-fun t4d () Int
+    3)
+  (define-fun t4p () Int
+    0)
+  (define-fun t6c () Int
+    0)
+  (define-fun t2p () Int
+    0)
+  (define-fun t6p () Int
+    6)
+  (define-fun t2c () Int
+    0)
+  (define-fun t2d () Int
+    4)
+  (define-fun t3c () Int
+    4)
+  (define-fun t1d () Int
+    2)
+  (define-fun t1c () Int
+    0)
+  (define-fun t1s () Int
+    5)
+  (define-fun t1n () Int
+    1)
+)
+
+Truck 1: 1 nuzzle, 5 skipples, 2 dupples
+Truck 2: 1 nuzzle, 3 skipples, 4 dupples
+Truck 3: 1 nuzzle, 4 crottles, 3 dupples
+Truck 4: 1 nuzzle, 4 crottles, 3 dupples
+Truck 5: 6 prittles
+Truck 6: 6 prittles

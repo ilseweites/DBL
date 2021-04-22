@@ -1,0 +1,48 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Cellulitis",
+            "request": "launch",
+            "mainClass": "Cellulitis",
+            "projectName": "Skollo_d624aa88"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StarWriter",
+            "request": "launch",
+            "mainClass": "StarWriter",
+            "projectName": "Skollo_d624aa88"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Hangman",
+            "request": "launch",
+            "mainClass": "Hangman",
+            "projectName": "Skollo_d624aa88"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-InterestChoice<Skollo_d624aa88>",
+            "request": "launch",
+            "mainClass": "InterestChoice",
+            "projectName": "Skollo_d624aa88"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Circle",
+            "request": "launch",
+            "mainClass": "Circle"
+        }
+    ]
+}
