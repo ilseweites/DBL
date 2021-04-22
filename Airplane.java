@@ -13,6 +13,7 @@ public class Airplane {
     firstSeat = emptyAirplane[random.nextInt(emptyAirplane.length)];
     airplane[firstSeat] = true;
     
+    //banaan 
     for(int i = 0; i < 99; i++) {
         if(airplane[i] == false) {
             airplane[i] = true;
