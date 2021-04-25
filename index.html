@@ -10,7 +10,20 @@
     align-items: center;
     color: #00003f;
   }
-  .box{
+  .outerbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    border: 3px solid white;
+    border radius: 5px:
+    background-color: white;
+    color: grey;
+    width: 1600px;
+    margin: 50px;
+    padding: 50px;
+    font-size: 50px;
+  }
+  .innerbox{
     border: 3px solid pink;
     border-radius: 5px;
     background-color: #ffb6c1;
@@ -22,12 +35,7 @@
     font-size: 100px;
     font-family: font-family: 'Abel', sans-serif;
   }
-  .parent{
-    display: flex;
-    justify-content: space-around;
-    align-items: stretch;
-   }
-   .background{
+  .background{
      background-color: #CBE8F2;
    }
   </style>
@@ -38,7 +46,7 @@
 
 <body class="background">
 <button type="submit">Upload Input</button>
-<div class="parent">
+<div class="outerbox">
   <div class="box">
     Visualization One.
   </div>
