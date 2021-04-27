@@ -38,6 +38,14 @@
   .background{
      background: url(download.jfif);
    }
+   #upload-button{
+     padding: 10px;
+     color: white;
+     background-color: #009578;
+     border: 1px solid white;
+     border-radius: 5px;
+     cursor: pointer;
+   }
   </style>
   </head>  
 
@@ -45,7 +53,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
 <body class="background">
-<button type="submit">Upload Input</button>
+<input type="file" id="real-file" hidden="hidden"/>
+<button type="submit">CHOOSE A FILE</button>
+<span id="custom-text">No file chosen, yet.</span>
 <div class="outerbox">
   <div class="innerbox">
     <button type="submit">X</button>
