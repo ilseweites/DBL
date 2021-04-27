@@ -65,7 +65,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
 <body class="background">
-<input type="file" id="real-file" hidden="hidden"/>
+  <div class="outerbox">
+    <input type="file" id="real-file" hidden="hidden"/>
 <button type="submit">CHOOSE A FILE</button>
 <span id="custom-text">No file chosen, yet.</span>
   
@@ -86,20 +87,18 @@
       } 
     });
   </script>
-  
-<div class="outerbox">
-  <div class="innerbox">
-    <button type="submit">X</button>
-    <button type="submit">Y</button>
-    <button type="submit">Z</button>
-    Visualization One.
-  </div>
-  <div class="innerbox">
-    <button type="submit">X</button>
-    <button type="submit">Y</button>
-    <button type="submit">X</button>
-    Visualization Two.
-  </div>
+    <div class="innerbox">
+      <button type="submit">X</button>
+      <button type="submit">Y</button>
+      <button type="submit">Z</button>
+      Visualization One.
+    </div>
+    <div class="innerbox">
+      <button type="submit">X</button>
+      <button type="submit">Y</button>
+      <button type="submit">X</button>
+      Visualization Two.
+    </div>
 <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
 </div>
 </body>
